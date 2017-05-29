@@ -1,0 +1,11 @@
+# QIIME-notes
+
+sudo gedit /etc/rc.local
+
+This will open a text editor and you will need to modify this line
+
+to look like this: mount.vboxsf -w -o uid=1000 Shared_Folder /home/qiime/Desktop/
+Shared_Folder
+
+After that, save it and restart your virtual machine.
+
